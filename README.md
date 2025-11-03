@@ -76,6 +76,9 @@ A few resources to help if you are new to Flutter:
 
 ```text
 lib/
+├── core/
+│   └── injection/
+│       └── di_container.dart   # Dependency injection setup
 └── features/
     └── product/
         ├── domain/           # Pure business logic
@@ -89,3 +92,8 @@ lib/
         └── presentation/     # UI Layer
             └── pages/        # Screens/widgets
 ```
+
+✅ Notes:
+
+* `core/injection/di_container.dart` contains your **service locator / dependency injection setup** (like your `sl.registerLazySingleton` code).
+* `features/product/…` keeps your DDD layers clean and modular.
