@@ -73,6 +73,8 @@ A few resources to help if you are new to Flutter:
 
 ---
 ### Folder structure
+
+```text
 lib/
 └── features/
     └── product/
@@ -86,3 +88,4 @@ lib/
         │   └── datasource/   # Data sources (API, local)
         └── presentation/     # UI Layer
             └── pages/        # Screens/widgets
+```
