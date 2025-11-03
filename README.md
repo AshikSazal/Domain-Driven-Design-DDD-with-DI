@@ -53,18 +53,6 @@ Infrastructure Layer (Repositories, API, DB)
 > * **Domain:** Contains business rules and entities.
 > * **Infrastructure:** Concrete implementations of repositories or services (e.g., API calls, local DB).
 
----
-
-## Getting Started
-
-A few resources to help if you are new to Flutter:
-
-* [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-* [Flutter Cookbook](https://docs.flutter.dev/cookbook)
-* [Flutter Documentation](https://docs.flutter.dev/)
-
----
-
 ### Notes
 
 * The project uses **Cubit** for state management.
