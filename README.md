@@ -78,7 +78,7 @@ A few resources to help if you are new to Flutter:
 lib/
 ├── core/
 │   └── injection/
-│       └── di_container.dart   # Dependency injection setup
+│       └── product_container.dart   # Dependency injection setup
 └── features/
     └── product/
         ├── domain/           # Pure business logic
