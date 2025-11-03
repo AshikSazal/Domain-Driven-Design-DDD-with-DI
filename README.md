@@ -1,8 +1,4 @@
-Sure! I can help you create a **README note for your Flutter project explaining Domain-Driven Design (DDD)**, including a **diagram image** to illustrate the layers. Here’s a clean, professional example you can use:
-
----
-
-# domain_drive_design
+# Domain-Driven Design (DDD)
 
 A Flutter project demonstrating **Domain-Driven Design (DDD)** principles.
 
