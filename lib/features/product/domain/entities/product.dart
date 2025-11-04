@@ -8,4 +8,16 @@ class Product {
     required this.name,
     required this.price,
   });
+
+  Map<String, dynamic> toMap() => {
+    'id': id,
+    'name': name,
+    'price': price,
+  };
+
+  factory Product.fromMap(Map<String, dynamic> map) => Product(
+    id: map['id'],
+    name: map['name'],
+    price: (map['price'] as num).toDouble(),
+  );
 }
