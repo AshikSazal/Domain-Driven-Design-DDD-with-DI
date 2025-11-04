@@ -8,7 +8,7 @@ class ProductRemoteDataSource implements ProductRepository {
 
   ProductRemoteDataSource(this.client);
 
-  static const String baseUrl = 'http://192.168.0.153:3000';
+  static const String baseUrl = 'address';
 
   @override
   Future<List<Product>> getProducts() async {
